@@ -14,10 +14,10 @@ export default function App() {
         <Cart
           img={Katie}
           rate="5.0"
-          searches="6"
+          searches={6}
           country="USA"
           title="Life lessons with Katie Zaferes"
-          price="136"
+          price={136}
         />
         <Cart
           img={Wedding}
@@ -25,15 +25,15 @@ export default function App() {
           searches="30"
           country="USA"
           title="Learn wedding photography"
-          price="125"
+          price={125}
         />
         <Cart
           img={Bike}
           rate="4.8"
-          searches="2"
+          searches={2}
           country="USA"
           title="Group Mountain Biking"
-          price="50"
+          price={50}
         />
       </div>
     </div>
