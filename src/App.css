@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 .AppContainer{
   width: 550px;
   height: 853px;
   border: 1px solid black;
+  font-family: 'Poppins';
 }
 
 .navigation{
@@ -16,4 +19,25 @@
 .img img{
   width: 395;
   height: 232px;
+}
+
+.heroPart .textPart{
+  margin-left:36px;
+}
+
+.heroPart h2{
+  font-size: 36px;
+  line-height: 110%;
+  color: #000000;
+  width: 347px;
+  height: 40px;
+  margin: 0 0 0 0;
+  margin-top: 36px;
+}
+
+.heroPart p{
+  font-size: 16px;
+  line-height: 110%;
+  width: 320px;
+  color: #222222;
 }

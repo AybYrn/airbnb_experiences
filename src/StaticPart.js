@@ -1,12 +1,12 @@
 import React from 'react';
+import HeroPart from './HeroPart';
 import Navigation from "./Navigation";
-import Collage from "./Group.png"
 
 export default function StaticPart() {
   return (
     <div className="staticContainer">
         <Navigation />
-        <div className='img'><img src={Collage} alt="collage"></img></div>
+        <HeroPart />
     </div>
   );
 }
