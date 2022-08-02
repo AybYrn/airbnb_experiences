@@ -52,9 +52,15 @@
 }
 
 .card{
-  margin-left: 37px;
+  margin-right: 18px;
   width: 176px;
   font-size: 12px;
+}
+
+.card_container{
+  display: flex;
+  margin-left: 37px;
+
 }
 
 .card span{
