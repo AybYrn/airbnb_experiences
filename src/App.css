@@ -3,22 +3,30 @@
 .AppContainer{
   width: 550px;
   height: 853px;
-  border: 1px solid black;
   font-family: 'Poppins';
+  margin: 5px auto;
+  background: #eeeeee;
 }
 
 .navigation{
+  background: #FFFFFF;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+.navigation img{
   margin: 20px;
 }
 
-.img{
-  margin: 0 auto;
-  text-align: center;
+.heroPart{
+  display: flex;
+  flex-direction: column;
+  margin-top: 26px;
 }
 
-.img img{
-  width: 395;
+.img{
+  margin: 0 ;
+  width: 395px;
   height: 232px;
+  align-self: center;
 }
 
 .heroPart .textPart{
@@ -40,4 +48,43 @@
   line-height: 110%;
   width: 320px;
   color: #222222;
+}
+
+.card{
+  margin-left: 37px;
+  width: 176px;
+}
+
+.rates{
+  display: flex;
+  font-size: 12px;
+  line-height: 110%;
+}
+
+.country{
+  color: #918E9B;
+  display: flex;
+  padding: 0 2px;
+  align-items: center;
+}
+
+.country svg{
+  padding-right: 2px;
+  padding-left: 2px;
+}
+
+.card p{
+  margin: 8px 0 0 0;
+  width: 176px;
+  font-size: 12px;
+  line-height: 110%;
+}
+
+.card span{
+  font-weight: bold;
+}
+
+.card .cardImg{
+  width: 176px;
+  height: 235px;
 }
