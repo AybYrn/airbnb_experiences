@@ -6,7 +6,7 @@ export default function Cart(props) {
 
   return (
     <div className="card">
-      {props.img && <img src={`${props.img}`} alt="Katie-zafere" className="cardImg"></img>}
+      {props.img && <img src={`${props.img}`} alt="" className="cardImg"></img>}
       <div className="card_stats">
       <img src={Star} alt="Star" className="cardStar"></img>
        {props.rate && <span>{props.rate}</span>}
