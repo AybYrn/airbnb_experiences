@@ -7,6 +7,7 @@
   font-family: 'Poppins';
   margin: 5px auto;
   background: #eeeeee;
+  overflow: hidden;
 }
 
 .navigation{
@@ -58,6 +59,17 @@
   margin-right: 18px;
   width: 176px;
   font-size: 12px;
+  position: relative;
+}
+
+.card-badge{
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background-color: #FFFFFF;
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-weight: bold;
 }
 
 .card_container{

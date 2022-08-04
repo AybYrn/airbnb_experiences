@@ -7,12 +7,8 @@ import Data from "./Data.js";
 export default function App() {
   const cartData = Data.map((data) => (
     <Cart
-      img={data.img}
-      rate={data.rate}
-      searches={data.searches}
-      country={data.country}
-      title={data.title}
-      price={data.price}
+      key = {data.id}
+      {...data}
     />
   ));
   console.log(cartData);
