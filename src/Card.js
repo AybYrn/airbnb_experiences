@@ -1,5 +1,4 @@
 import React from "react";
-import Star from "./Star.svg";
 
 export default function Cart(props) {
 
@@ -15,9 +14,9 @@ export default function Cart(props) {
   return (
     <div className="card">
       {textbadge && <div className="card-badge">{textbadge}</div>}
-      {props.img && <img src={`${props.img}`} alt="" className="cardImg"></img>}
+      {props.img && <img src={`/images/${props.img}`} alt="" className="cardImg"></img>}
       <div className="card_stats">
-      <img src={Star} alt="Star" className="cardStar"></img>
+      <img src="/images/Star.svg" alt="Star" className="cardStar"></img>
        {props.rate && <span>{props.rate}</span>}
        {props.searches && <span className="gray">({props.searches}) • </span>}
         {props.country && <span className="gray">{props.country}</span>}
